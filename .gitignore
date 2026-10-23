@@ -1,0 +1,43 @@
+__pycache__/
+
+# Local audit notes; versioned history lives in the source collection.
+/AUDIT.md
+
+# Skills that do not ship with this collection. The maintainer's reference
+# check reads these entries to catch published files that still point at
+# them. A skill whose name also appears in public URLs is left out, because
+# those URLs would fail the check.
+skills/csc-allas/
+skills/csc-lumi/
+skills/csc-rahti/
+skills/csc-roihu/
+skills/design-taste-frontend/
+skills/dev-toolchain/
+skills/env/
+skills/excalidraw-diagram/
+skills/go-ui/
+skills/improving-skills/
+skills/jev-builder/
+skills/mcp-eval/
+skills/media-gen/
+skills/paradedb-skill/
+skills/project-docs/
+skills/rahti-audit/
+skills/skill-finder/
+skills/slack-message/
+skills/turborepo/
+skills/typesafe-ai/
+skills/ui-signature/
+skills/vercel-optimize/
+
+# Maintainer-only tooling: the reference check and its git hook. A clone
+# holds only the published skills, so it does not need them.
+/scripts/
+/.githooks/
+skills/search-console/
+skills/threejs-web-experiences/
+skills/retro/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
